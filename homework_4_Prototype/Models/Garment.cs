@@ -5,7 +5,7 @@ namespace homework_4_Prototype.Models
     /// <summary>
     /// Базовый класс для любого предмета одежды. <br/>
     /// Содержит базовые свойства: Id, Name. <br/>
-    /// Реазлизует паттерн Prototype.
+    /// Реазлизует паттерн Prototype через интерфейсы IMyCloneable и System.ICloneable.
     /// </summary>
     public class Garment : IMyCloneable<Garment>, ICloneable
     {

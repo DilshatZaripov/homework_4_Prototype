@@ -2,8 +2,9 @@
 {
     /// <summary>
     /// Класс, описывающий пальто.<br/>
-    /// Содержит свойства: Materials, Color.<br/>
-    /// Реализует паттерн Prototype.
+    /// Унаследован от класса Outerwear.<br/>
+    /// Добавляет свойства: Materials, Color.<br/>
+    /// Реализует паттерн Prototype: используется глубокое копирование для ссылочного типа List&lt;string&gt;.
     /// </summary>
     public class Coat : Outerwear
     {
@@ -12,7 +13,7 @@
         /// </summary>
         /// <param name="id">int - идентификационный номер одежды</param>
         /// <param name="name">string - название одежды</param>
-        /// <param name="materials">List[string] - перечисление материалов в виду строк</param>
+        /// <param name="materials">List&lt;string&gt; - перечисление материалов в виде строк</param>
         /// <param name="color">string - цвет данного пальто</param>
         public Coat(
             int id, string name,

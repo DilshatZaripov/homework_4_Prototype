@@ -3,7 +3,7 @@
     /// <summary>
     /// Класс, описывающий верхнюю одежду.<br/>
     /// Унаследован от класса Garment.<br/>
-    /// Содержит свойство BodyPart.<br/>
+    /// Добавляет свойство BodyPart.<br/>
     /// Релизует паттерн Prototype.
     /// </summary>
     public class Outerwear : Garment
