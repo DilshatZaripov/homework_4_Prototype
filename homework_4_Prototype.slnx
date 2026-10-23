@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="homework_4_Prototype/homework_4_Prototype.csproj" />
+  <Project Path="homework_4_Prototype.Tests/homework_4_Prototype.Tests.csproj" Id="dd2088dc-08fb-4888-a82a-34bf33be75f6" />
+</Solution>

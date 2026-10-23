@@ -1,8 +1,8 @@
-﻿using homework_4_Protorype.Interfaces;
+﻿using homework_4_Prototype.Interfaces;
 
-namespace homework_4_Protorype.Models
+namespace homework_4_Prototype.Models
 {
-    internal class Garment : IMyCloneable<Garment>, ICloneable
+    public class Garment : IMyCloneable<Garment>, ICloneable
     {
         public Garment(
             int id,

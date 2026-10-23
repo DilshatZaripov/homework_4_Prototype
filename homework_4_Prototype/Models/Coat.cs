@@ -1,6 +1,6 @@
-﻿namespace homework_4_Protorype.Models
+﻿namespace homework_4_Prototype.Models
 {
-    internal class Coat : Outerwear
+    public class Coat : Outerwear
     {
         public Coat(
             int id, string name, 

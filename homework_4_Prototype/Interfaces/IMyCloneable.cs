@@ -1,4 +1,4 @@
-﻿namespace homework_4_Protorype.Interfaces
+﻿namespace homework_4_Prototype.Interfaces
 {
     public interface IMyCloneable<out T>
     {
