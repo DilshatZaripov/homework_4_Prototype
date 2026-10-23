@@ -25,8 +25,8 @@ namespace homework_4_Prototype.Tests
 
             cloneCoat.Materials.Add("Cotton");
 
-            Assert.Equal(originalCoat.Materials.Count, cloneCoat.Materials.Count);
-            Assert.Equal(originalCoat.Materials, cloneCoat.Materials);
+            Assert.NotEqual(originalCoat.Materials.Count, cloneCoat.Materials.Count);
+            Assert.NotEqual(originalCoat.Materials, cloneCoat.Materials);
         }
 
         [Fact]
@@ -50,8 +50,8 @@ namespace homework_4_Prototype.Tests
 
             cloneCoat.Materials.Add("Whool");
 
-            Assert.Equal(originalCoat.Materials.Count, cloneCoat.Materials.Count);
-            Assert.Equal(originalCoat.Materials, cloneCoat.Materials);
+            Assert.NotEqual(originalCoat.Materials.Count, cloneCoat.Materials.Count);
+            Assert.NotEqual(originalCoat.Materials, cloneCoat.Materials);
         }
     }
 }

@@ -1,1 +1,1 @@
-﻿
+﻿Console.WriteLine("Prototype library loaded successfully.");
