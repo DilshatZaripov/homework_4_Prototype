@@ -9,7 +9,6 @@ namespace homework_4_Prototype.Tests
         {
             var originalCoat = new Coat(
                 14, "Demi-Season Coat",
-                "Torso",
                 ["Cashemire"],
                 "Lemon Yellow");
 
@@ -27,6 +26,7 @@ namespace homework_4_Prototype.Tests
 
             Assert.NotEqual(originalCoat.Materials.Count, cloneCoat.Materials.Count);
             Assert.NotEqual(originalCoat.Materials, cloneCoat.Materials);
+            Assert.DoesNotContain("Cotton", originalCoat.Materials);
         }
 
         [Fact]
@@ -34,7 +34,6 @@ namespace homework_4_Prototype.Tests
         {
             var originalCoat = new Coat(
                 14, "Demi-Season Coat",
-                "Torso",
                 ["Cashemire"],
                 "Lemon Yellow");
 
@@ -52,6 +51,7 @@ namespace homework_4_Prototype.Tests
 
             Assert.NotEqual(originalCoat.Materials.Count, cloneCoat.Materials.Count);
             Assert.NotEqual(originalCoat.Materials, cloneCoat.Materials);
+            Assert.DoesNotContain("Whool", originalCoat.Materials);
         }
     }
 }
